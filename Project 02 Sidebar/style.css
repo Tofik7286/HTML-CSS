@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-box{
+    position: relative;
+    background: url('sidebar.png') right no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main-box .sidebar{
+    position: fixed;
+    height: 100vh;
+    width: 18%;
+    left: -18%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    transition: all 1s linear;
+}
+.sidebar .logo{
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    height: 60px;
+    width: 100%;
+}
+.logo a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    padding-left: 40px;
+    position: absolute;
+    line-height: 60px;
+}
+.sidebar .menu{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+.menu li{
+    margin-top: 6px;
+    padding: 20px 20px;
+}
+
+.sidebar .menu i{
+    color: black;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.sidebar .menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar .menu li:hover{
+    border-left: 5px solid #000;
+    box-shadow: 0 0 6px rgb(0, 0, 0);
+}
+.sidebar .social-media{
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+}
+.social-media i{
+    padding: 0 5px;
+    color: #000;
+    font-size: 20px;
+}
+#check{
+    display: none;
+}
+.main-box .btn_one i{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    left: 16px;
+    opacity: 1;
+    font-weight: 900;
+    top: 10px;
+    cursor: pointer;
+    
+}
+.sidebar .btn_two i{
+    position: absolute;
+    left: 230px;
+    top: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#check:checked ~.sidebar{
+    left: 0%;
+
+}
+#check:checked ~ .btn_one i{
+    opacity: 0;
+}
+
+#check:checked ~ .sidebar .btn_two i{
+    opacity: 1;
+}

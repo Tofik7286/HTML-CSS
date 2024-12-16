@@ -1,0 +1,20 @@
+insert css 
+import form
+import box icon
+
+insert 1 div -> profile
+    insert 1 div -> image
+        isert img with class -> profile-img
+
+make body div center
+    3 steps 
+        1. display flex
+        2. justify-content center
+        3. align-items center
+    give height
+
+design profile class    
+    1. give max-widht
+    2. width = 100%
+    3. background 
+    4. box-shadow 

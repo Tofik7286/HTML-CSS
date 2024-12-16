@@ -1,0 +1,9 @@
+1. add background image
+2. main_div
+	1. logo
+	2. menu
+		ul 
+		    li -> a
+	
+	3. social media
+		all icons
