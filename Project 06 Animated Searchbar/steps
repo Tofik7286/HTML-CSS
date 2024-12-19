@@ -1,0 +1,6 @@
+main box
+    search-box
+        input
+        .icon
+            i
+        
