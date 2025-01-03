@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h1>Student Register Form</h1>
+        <form action="">
+          <div class="form_container">
+            <div class="form_control">
+              <label for="First_name">First Name :</label>
+              <input
+                type="text"
+                name="First_name"
+                id="First_name"
+                placeholder="Enter your first name .."
+              />
+            </div>
+
+            <div class="form_control">
+              <label for="Last_name">Last Name :</label>
+              <input
+                type="text"
+                name="Last_name"
+                id="Last_name"
+                placeholder="Enter your last name .."
+              />
+            </div>
+
+            <div class="form_control">
+              <label for="Email">Email :</label>
+              <input
+                type="email"
+                name="Email"
+                id="Email"
+                placeholder="Enter your email .."
+              />
+            </div>
+
+            <div class="form_control">
+              <label for="select_course">Course :</label>
+              <select name="select_course" id="select_course">
+                <option value="Select Course">Select Course</option>
+                <option value="BCA">BCA</option>
+                <option value="IMSCIT">IMSCIT</option>
+                <option value="B.TECH">B.TECH</option>
+              </select>
+            </div>
+
+            <div class="textarea_control">
+              <label for="address">Address :</label>
+              <textarea
+                name="address"
+                id="address"
+                cols="50"
+                rows="4"
+                placeholder="Enter Address.."
+              ></textarea>
+            </div>
+
+            <div class="form_control">
+              <label for="city">City :</label>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="Enter City"
+              />
+            </div>
+
+            <div class="form_control">
+              <label for="pincode">Pincode :</label>
+              <input
+                type="number"
+                name="pincode"
+                id="pincode"
+                placeholder="Enter pincode"
+              />
+            </div>
+
+            <div class="form_control">
+              <label for="date">DOB :</label>
+              <input type="date" name="DOB" id="date" />
+            </div>
+
+            <div class="form_control">
+              <label for="picture">Enter your picture :</label>
+              <input
+                type="file"
+                name="picture"
+                id="picture"
+                value="30-09-2003"
+                accept=".jpg"
+              />
+            </div>
+
+            <!-- End form_container  -->
+          </div>
+
+          <div class="button_container">
+            <button type="submit">Register Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
