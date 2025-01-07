@@ -29,7 +29,7 @@ html,body{
 }
 .textBG{
     background: transparent;
-    box-shadow: 5px 5px 10px rgba(215, 72, 72, 0.1);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.1);
     color: white;
     border-radius: 5px;
     padding: 15px;
