@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: url('1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.hiclass{
+    z-index: 55;
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:32%;
+    top: 40%;
+}
+
+.smalltext{
+    z-index: 55;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: black;
+    position: absolute;
+    left:43%;
+    top: 40%;
+}
+
+.container h1{
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index: 55;
+}
+
+.blackbox{
+    height: 200px;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.blackbox p{
+    
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.box{
+    height: 450px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row; 
+    gap: 25px;   
+    /* border: 2px solid black; */
+}
+
+
+.box-1,.box-2,.box-3{
+    background: white;
+    height: 100%;
+    width: 33%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.box img{
+    height: 192px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.box .text{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.box .text h1{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box .text p{
+    margin-top: 25px;
+    font-size: 18px;
+    color: black;
+    
+}
+.contact{
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    height: 300px;
+}
+.contact .contact-me{
+    padding: 25px;
+    background: brown;
+    height: 100%;
+}
+
+.contact .about-me{
+    padding: 25px;
+    background: green;
+    height: 100%;
+}
+
+.contact h1{
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+}
+
+.contact p{
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+}
+footer{
+    padding: 20px;
+    background: black;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
