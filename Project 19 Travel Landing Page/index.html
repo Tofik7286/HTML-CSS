@@ -4,37 +4,121 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Remix Icon  -->
+    <!-- Font Awesome  -->
 
     <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Amazing <span>Travel</span></a>
+      </div>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#" class="btn">Sign Up</a></li>
+        <li><a href="#" class="btn">Sign In</a></li>
+      </ul>
+      <div class="icon"><i id="bar" class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <div class="homesection">
       <div class="content">
-        <div class="logo">
-          <a href="#">Amazing <span>Travel</span></a>
+        <div class="left">
+          <h1>
+            LET'S GO! <br />
+            THE <span> ADVENTURE </span> IS <br />
+            WAITING FOR YOU
+          </h1>
+          <p>
+            Embark on Your Journey Today and Discover Uncharted Wonders Around
+            the World - Your Adventure Awaits with Exciting Experiences,
+            Unforgettable Memories, and Endless Opportunities
+          </p>
+          <div class="btn">
+            <button type="button">Book Your Slot</button>
+          </div>
         </div>
-        <div class="menu_bar">
-          <span><i class="ri-menu-line"></i></span>
-        </div>
-        <div class="menu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Destination</a></li>
-            <li><a href="#">Package</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="buttons">
-          <button type="button" class="sign_up">Sign Up</button>
-          <button type="button" class="sign_in">Sign In</button>
+        <div class="right">
+          <img src="images/header.webp" alt="" />
         </div>
       </div>
-    </header>
+    </div>
+
+    <div class="destination">
+      <div class="content">
+        <h1>Popular Destination</h1>
+        <div class="row-1">
+          <div class="box">
+            <img src="images/destination/Dubai.webp" alt="" />
+            <button>Dubai</button>
+          </div>
+
+          <div class="box">
+            <img src="images/destination/USA.webp" alt="" />
+            <button>USA</button>
+          </div>
+
+          <div class="box">
+            <img src="images/destination/iceland.webp" alt="" />
+            <button>iceland</button>
+          </div>
+
+          <div class="box">
+            <img src="images/destination/London.webp" alt="" />
+            <button>London</button>
+          </div>
+
+          <div class="box">
+            <img src="images/destination/Switzerland.webp" alt="" />
+            <button>Switzerland</button>
+          </div>
+
+          <div class="box">
+            <img src="images/destination/JAPAN.webp" alt="" />
+            <button>japan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h3>Amazing Travel</h3>
+        <p>
+          Embark on a journey of a lifetime with Amazing Travel. Discover new
+          destinations, cultures, and adventures.
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Amazing Travel. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
+
+  <script src="script.js"></script>
 </html>
