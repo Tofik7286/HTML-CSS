@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.main .nav {
+    height: 100px;
+    width: 100%;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h4, i {
+    margin: 2px;
+    font-size: 16px;
+    border: 1px solid #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.center h1 {
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.right button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.right .Signup {
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.main .main-text {
+    text-transform: uppercase;
+    font-size: 140px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.main img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+h5 {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+.icons {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+
+
+h6 {
+    position: absolute;
+    right: 5%;
+    bottom: 2%;
+}
+
+.center_icon i {
+    position: absolute;
+    bottom: 1%;
+    font-size: 48px;
+    left: 45%;
+}
+
+.center_icon i:hover {
+    scale: 1.2;
+    transition: all 0.3s;
+}
