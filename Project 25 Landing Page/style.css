@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px 20px;
+
+}
+
+.nav .left {
+    padding: 10px 20px;
+}
+
+.nav .left h2 {
+    cursor: pointer;
+}
+
+.nav .center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav .center p {
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.nav .menu {
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav .menu li {
+    list-style: none;
+    margin: 10px;
+}
+
+.nav .menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav .menu li a:hover {
+    border-bottom: 2px solid black;
+    transition: all .5s ease;
+
+}
+
+.content {
+    height: 80%;
+    width: 100%;
+}
+
+.content h4 {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+.content h2 {
+    padding: 30px 20px;
+    font-size: 150px;
+    font-weight: 500;
+    line-height: 140px;
+    letter-spacing: -2px;
+}
+
+.case-study {
+    height: 80%;
+    width: 100%;
+}
+
+.case-study .content {
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    width: 100%;
+}
+
+.case-study .content h6 {
+    padding: 10px 40px;
+    font-size: 18px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box img {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.box1 .content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box2 .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.box2 .content .icon {
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.box2 .content .icon:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: all .5s ease;
+}
+
+.box2 .content .icon i {
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+
+
+
+.box1 .content .icon {
+
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.box1 .content .icon:hover {
+    background-color: black;
+    color: white;
+    transition: all .5s ease;
+}
+
+.box1 .content .icon i {
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f5f5f5;
+    padding: 60px 40px 30px;
+    margin-top: 80px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer-col h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.footer-col h4 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.footer-col a:hover {
+    color: #000;
+    padding-left: 5px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.legal-links a {
+    color: #666;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 0.9rem;
+}
+
+.legal-links a:hover {
+    color: #000;
+}
+
+/* Social Icon Animation */
+.footer-col a i {
+    transition: transform 0.3s ease;
+}
+
+.footer-col a:hover i {
+    transform: translate(3px, -3px);
+}
